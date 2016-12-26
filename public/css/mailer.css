@@ -1,0 +1,82 @@
+body{
+    background-color: #eee;
+}
+
+.home .title-wrapper{
+    margin: auto;
+    padding-top: 50px;
+    max-width: 330px;
+}
+
+.home .login-wrapper .container{
+    margin: auto;
+    max-width: 330px;
+}
+
+.app nav{
+    margin-bottom: 0px;
+}
+
+.app .left-panel{
+    width: 20%;
+    max-width: 200px;
+    min-width:100px;
+}
+
+.app .left-panel .nav{
+    width: 100%;
+}
+
+.app .right-panel{
+    margin-left: 20px;
+    width: 80%;
+}
+
+.app .placeholder{
+    padding: 15px;
+    background-color: #d8d8d8;
+    cursor: pointer;
+    -moz-box-shadow: 2px 2px 2px 0px #c3c3c3;
+    -webkit-box-shadow: 2px 2px 2px 0px #c3c3c3;
+    box-shadow: 2px 2px 2px 0px #c3c3c3;
+}
+
+.app .placeholder:hover{
+    background-color: #c5c5c5;
+}
+
+.app .placeholder.active{
+    background-color: white;
+}
+
+.app .compose-new-email-wrapper{
+    margin: 10px 0px 10px 0px;
+    padding: 0px;
+}
+
+.app .bootstrap-tagsinput{
+    width: 100%;
+}
+
+.app .tab-content .list-group-item:hover{
+    background-color: white;
+}
+
+.app .remove-attachment{
+    color: red;
+    cursor: pointer;
+}
+
+.app .attachment-name{
+    cursor: pointer;
+}
+
+.app .btn-reply{
+    padding-right:20px;
+}
+
+.app .btn-reply
+,.app .btn-fwd
+,.app .btn-email-trash{
+    cursor: pointer;
+}
